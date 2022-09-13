@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ h1 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    padding-left: 10px;
+}
+
+header {
+    height: 80px;
+    background-image: url(cabeçalho.jpg);
+}
+
+#container {
+    width: 800px;
+}
+
+#menu li {
+    display: block;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: rgb(110, 69, 69);
+    float: left;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header img {
+    width: 85px;
+    height: 75px;
+    float:left;
+  
+}
+
+#menu li ul {
+    display: none;
+}
+
+#menu li:hover {
+  background-color: silver;
+    cursor: pointer;
+}
+
+#menu li:hover ul {
+    display: block;
+    position:absolute;
+  
+   margin-top: 10px;
+    z-index: 99;
+}
+
+#menu li ul li {
+    float: none;
+}
+
+#left {
+    background-image: url(menuimg.jpg);
+    width:120px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 600px;
+}
+
+#left li {
+    display: block;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: blanchedalmond;
+    padding: 5px 0;
+}
+#left li span, #left li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    border: 1px solid black;
+    border-radius: 2px solid;
+    background-color: rgb(71, 42, 42);
+    text-align: center;
+    color: white;
+}
+#comprar {
+   
+}
+.livros {
+    width: 150px;
+    height:180px;
+    padding: 5px;}
+
+section {
+    margin-left:140px;
+    margin-top: 60px;
+    margin-right:140px ;
+}
+
+table td {
+    text-align: center;
+    padding: 5px;
+  
+     margin-top: 15px;
+}
+.price {
+    color: yellowgreen;
+    font-size: 10px;
+}
+#right {
+    width:120px;
+    float: right;
+    margin-top: 5px;
+    height: 600px;
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+}
+.top5 {
+    width: 100px;
+    height: 120px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
